@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'CSI'
+theme = "re-terminal"
 pagination.pagerSize = 5
 
 [params]

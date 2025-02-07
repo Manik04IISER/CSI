@@ -1,0 +1,62 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'CSI'
+theme = "re-terminal"
+pagination.pagerSize = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "orange"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = true
+
+
+[languages]
+  [languages.en.params]
+    title = "CSI"
+    subtitle = "Crime Scene Investigation"
+    keywords = ""
+    copyright = ""
+    menuMore = "Menu"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "CSI"
+      logoHomeLink = "/"
+
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    identifier = "reports"
+    name = "Cases"
+    url="/reports/"
+    weight = 10
+
+
+  [[languages.en.menu.main]]
+
+    name = "Past Archives"
+    url = "/past/"
+    parent="reports"
+
+[[languages.en.menu.main]]
+
+    name = "Information"
+    url = "/info/"
+    parent="reports"
+  [[languages.en.menu.main]]
+
+    name = "Ongoing Investigation"
+    url = "/current/"
+    parent="reports"
+[[languages.en.menu.main]]
+    identifier = "eval"
+    name = "Evaluation"
+    url = "/eval/"
+  [[languages.en.menu.main]]
+
+    name = "Rankings"
+    url = "/board/"
+    parent="eval"

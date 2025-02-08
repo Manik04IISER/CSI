@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Currents on CSI</title>
+    <link>http://localhost:1313/current/</link>
+    <description>Recent content in Currents on CSI</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/current/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/current/pipo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/current/pipo/</guid>
+      <description>&lt;p&gt;Crime Scene Briefing: Arson Attack on the Government Server Room&lt;/p&gt;&#xA;&lt;p&gt;Classification: Cyberterrorism &amp;amp; Domestic Sabotage&#xA;Location: Ministry of Information – Data &amp;amp; Server Facility&#xA;Time of Incident: 2:17 AM&#xA;Primary Responding Unit: State Directorate of Order and Security (SDOS)&#xA;Incident Summary:&lt;/p&gt;&#xA;&lt;p&gt;At 2:17 AM, an arson attack was launched against the Ministry of Information’s central server facility, a critical infrastructure responsible for storing and processing vast amounts of government records, surveillance data, and classified intelligence. The fire suppression systems failed to activate, resulting in an uncontrolled blaze that lasted for nearly 30 minutes, destroying key data servers, archival logs, and surveillance backups before being contained.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

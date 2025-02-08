@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSI Event</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+New&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .terminal-screen {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border: 1px solid #333;
+            position: relative;
+        }
+
+        .logo {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #ff9b21;
+        }
+
+        header {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-bottom: 1px solid #333;
+        }
+
+        .countdown-container {
+            text-align: center;
+            font-size: 1.5em;
+            margin: 30px 0;
+        }
+
+        .event-description {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 5px;
+            border-top: 1px solid #333;
+            margin: 20px 0;
+        }
+
+        .video-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid #ff9b21;
+            padding: 10px;
+        }
+
+        .poster-container {
+            position: absolute;
+            top: 40%;
+            right: 30%;
+            border: 2px solid #ff9b21;
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .terminal-screen {
+                padding: 15px;
+            }
+            
+            .countdown-container {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal-screen">
+        <header>
+            <div class="logo">CSI</div>
+            <nav>
+                <ul style="list-style-type: none; margin-top: 20px;">
+                    <li>Home</li>
+                    <li>About CSI</li>
+                    <li>Event Guidelines</li>
+                    <li>Contact Us</li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="countdown-container">
+            <h2>Event Countdown</h2>
+            <div id="countdown"></div>
+        </div>
+
+        <div class="event-description">
+            <h3>Event Description</h3>
+            <p>Join us for an intense and immersive Crime Scene Investigation experience. Test your skills against real-world challenges and scenarios used by professional CSI teams.</p>
+            
+            <h3> Guidelines </h3>
+            <ol>
+                <li>Follow all safety protocols</li>
+                <li>Respect the property</li>
+                <li>Use only authorized equipment</li>
+                <li>Report all findings</li>
+            </ol>
+        </div>
+
+        <div class="video-container">
+            <h3>CSI Promo Video</h3>
+            <video controls style="width: 100%; height: auto;">
+                
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="poster-container">
+            <h3>CSI Poster</h3>
+            
+            <img src="csi-poster.png" alt="CSI Event Poster" style="max-width: 100%; height: auto;">
+        </div>
+    </div>
+
+    <script>
+        
+        function updateCountdown() {
+            const targetDate = new Date('February 8, 2024 00:00:00');
+            const currentDate = new Date();
+
+            const diffTime = targetDate - currentDate;
+            
+            if (diffTime > 0) {
+                const days = Math.floor(diffTime / 1000 / 60 / 60 / 24);
+                const hours = Math.floor((diffTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((diffTime % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diffTime % (1000 * 60)) / 1000);
+
+                document.getElementById('countdown').innerHTML = 
+                    `${days}d ${hours}h ${minutes}m ${seconds}s until CSI Event`;
+            } else {
+                document.getElementById('countdown').innerHTML = "Event has already started!";
+            }
+        }
+
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown(); 
+    </script>
+</body>

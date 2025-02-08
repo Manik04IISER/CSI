@@ -1,7 +1,7 @@
 baseURL = 'https://aesthetic-duckanoo-107807.netlify.app/'
 languageCode = 'en-us'
 title = 'CSI'
-theme = "re-terminal"
+
 pagination.pagerSize = 5
 
 [params]

@@ -16,7 +16,7 @@ color = "green" #color from the theme settings
 https://drive.google.com/file/d/1wG9Q0hCIyOFwXmhbKqAP135Rg_TDk7Ek/view?usp=sharing\
 
 
-OFFICIAL PRESS RELEASE
+OFFICIAL PRESS RELEASE 
 Issued by Edgar Hoover, Representative of State Directorate of Order and Security
 
 FOR IMMEDIATE DISSEMINATION

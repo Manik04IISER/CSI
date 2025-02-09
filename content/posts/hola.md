@@ -14,4 +14,4 @@ color = "green" #color from the theme settings
 +++
 
 
-How's Lifeeee!!
+How's Lifeeeeeee!!

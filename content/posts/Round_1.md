@@ -12,6 +12,8 @@ hideComments = false
 color = "green" #color from the theme settings
 +++
 
-# Round 1 Audio
+# Audio
+
+Please check this folder for the audios of every round.
 
 https://drive.google.com/drive/folders/1A7ItYSSmNPFjhme3PPAJDXL_k5_pgCeu?usp=drive_link

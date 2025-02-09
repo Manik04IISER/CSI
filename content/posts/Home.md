@@ -15,4 +15,6 @@ color = "green" #color from the theme settings
 +++
 Hello Folks.
 
-Welcome to CSI
+Welcome to Day 2 of CSI
+
+All announcements shall happen here, and please share your grievances and issues in the whatsapp group.

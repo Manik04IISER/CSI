@@ -1,5 +1,5 @@
 +++
-title = "Home"
+title = "Welcome"
 author = "CSI"
 authorTwitter = "" #do not include @
 cover = "img/logo.jpg"

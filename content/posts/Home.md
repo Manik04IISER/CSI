@@ -1,7 +1,6 @@
 +++
 title = "Home"
-date = "2025-01-24T00:35:14+05:30"
-author = "SG"
+author = "CSI"
 authorTwitter = "" #do not include @
 cover = "img/logo.jpg"
 coverCaption = ""

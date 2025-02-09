@@ -17,3 +17,6 @@ Hello Folks.
 Welcome to Day 2 of CSI
 
 All announcements shall happen here, and please share your grievances and issues in the whatsapp group.
+
+As for the announcements, any report that is a part of the scene, please access Cases -> Information.
+On Mobiles access Menu -> Cases -> Information.

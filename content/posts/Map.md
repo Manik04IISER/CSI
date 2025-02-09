@@ -15,4 +15,4 @@ color = "green" #color from the theme settings
 
 # MAP
 
-![Zetovia](map.png)
+![Zetovia](/img/map.png)

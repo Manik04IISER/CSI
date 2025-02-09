@@ -18,3 +18,5 @@ The Bureau has received an unexpected request from Edgar Hoover, the known leade
 Given the recent surge in revolutionary activity and the escalating crisis, the Bureau is willing to explore all possible sources of intelligence. We do not take this lightly, but the reality is clear: we need information, and we need it now.
 
 Your orders are simple—attend the meeting, listen carefully, and extract whatever intelligence you can. The Bureau is counting on you.
+
+LHC 103
